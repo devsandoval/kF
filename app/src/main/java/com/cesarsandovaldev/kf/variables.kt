@@ -26,4 +26,6 @@ fun main() {
     val booleanExample:Boolean = true
     val booleanExample2:Boolean = false
 
+    println(stringExample)
+
 }
