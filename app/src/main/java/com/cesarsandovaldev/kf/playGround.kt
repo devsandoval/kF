@@ -7,7 +7,7 @@ fun main() {
     var resta = restar (10,5)
     var multi = multiplicacion(5, 10)
 
-    showMyage(12)
+    showMyage2(12)
     showName("cesar")
     println (resta)
     println (multi)
@@ -22,7 +22,7 @@ fun imprimirHolaMundo(){
     println("Hola mundo")
 }
 
-fun showMyage(currentAge: Int) {
+fun showMyage2(currentAge: Int) {
     println("Mi edad es: $currentAge años")
 }
 fun showName(currentName: String) {
