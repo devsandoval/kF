@@ -2,8 +2,9 @@ package com.cesarsandovaldev.kf
 
 var gg: String = "Good Game"
 fun main() {
-    showMyage(42)
+    showMyage(12)
     sumar(25, 76)
+    variablesNumericas()
 }
 
 fun variablesNumericas() {
