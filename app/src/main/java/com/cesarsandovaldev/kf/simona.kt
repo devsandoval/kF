@@ -1,5 +1,5 @@
 fun main() {
-    var gata:String = "Simona"
+    var gata:String = "Mia"
     simona(gata)
 
 }
