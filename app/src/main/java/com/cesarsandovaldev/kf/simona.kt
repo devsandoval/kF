@@ -1,7 +1,5 @@
 fun main() {
-    var gata:String = "Mia"
-    simona(gata)
-
+    val gato = "Orion"
+    gatitos(gato)
 }
-
-fun simona(nombre: String) = println ("$nombre")
+fun gatitos(nombre: String) = println (nombre)
