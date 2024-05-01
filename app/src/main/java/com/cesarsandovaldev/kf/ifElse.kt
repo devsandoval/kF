@@ -1,6 +1,9 @@
 fun main() {
     //ifBasico()
     ifAnidado()
+    boo()
+    comprobacionEdad()
+    ifMultipleOR()
 }
 
 fun ifAnidado(){
@@ -13,7 +16,7 @@ fun ifAnidado(){
         println("es un pajarito")
     }
     else{
-        println("no es un animal de la lista")
+        println("no es uno de los animal esperados")
     }
 }
 fun ifBasico () {
@@ -24,5 +27,29 @@ fun ifBasico () {
     }
     else{
         println("El nombre no es correcto es: $name")
+    }
+}
+
+fun boo(){
+    var dia = true
+    if (dia) println("es de dia")
+    if (!dia) println("es de noche")
+}
+
+fun comprobacionEdad(){
+    var edad: Int = 18
+    var permiso = false
+    var imhappy = true
+    if(edad >= 18 && permiso && imhappy) { //condicional && and
+     println("Puedo beber cerveza")
+    }
+}
+
+fun ifMultipleOR(){
+    var pet = "cat"
+    var isHappy = true
+
+    if(pet == "dog" || (pet == "cat" && isHappy)){ //condicional || or
+        print("Es un gato o un perro feliz")
     }
 }
