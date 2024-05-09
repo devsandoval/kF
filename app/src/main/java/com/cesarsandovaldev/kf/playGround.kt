@@ -12,6 +12,8 @@ fun main() {
     println (resta)
     println (multi)
 
+    comprarPan(100)
+
 }
 
 fun suma(num1: Int, num2: Int): Int {
@@ -34,3 +36,15 @@ fun restar(firstNumber: Int, secondNumber: Int): Int {
 }
 
 fun multiplicacion(num01: Int, num02:Int) = num01 * num02
+
+
+
+fun comprarPan (presupuesto: Int):Int{
+    val valor:Int = 800
+    if (presupuesto >= valor){
+        println("compraste")
+    }else{
+        println("no compraste")
+    }
+    return presupuesto
+}
