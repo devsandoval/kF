@@ -29,5 +29,3 @@ fun getFamilyMember(name: String) = when (name) {
     "Óscar" -> "Son"
     else -> "Not a family member"
 }
-
-
