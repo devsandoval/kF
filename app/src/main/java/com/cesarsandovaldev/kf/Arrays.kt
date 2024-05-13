@@ -16,7 +16,16 @@ fun main() {
         println("exede el tamaño")
     }
 
+    val names = arrayOf("Antonio", "Tania", "Vera", "Óscar", "Tomás")
+    for (i in 0..<names.size) println(getFamilyMember(names[i]))
+}
+
 //Bucles
 
-
+fun getFamilyMember(name: String) = when (name) {
+    "Antonio" -> "Dad"
+    "Tania" -> "Mum"
+    "Vera" -> "Daughter"
+    "Óscar" -> "Son"
+    else -> "Not a family member"
 }
