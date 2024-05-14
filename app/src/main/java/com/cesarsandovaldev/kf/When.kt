@@ -18,7 +18,7 @@ fun getMonth(month: Int) {
         10 -> print("Octubre")
         11 -> {
             print("Noviembre")
-            print("Noviembre")
+            print("Según")
         }
 
         12 -> print("Diciembre")

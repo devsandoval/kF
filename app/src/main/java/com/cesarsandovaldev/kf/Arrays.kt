@@ -17,7 +17,7 @@ fun main() {
     }
 
     val names = arrayOf("Antonio", "Tania", "Vera", "Óscar", "Tomás")
-    for (i in 0..<names.size) println(getFamilyMember(names[i]))
+    for (element in names) println(getFamilyMember(element))
 }
 
 //Bucles
