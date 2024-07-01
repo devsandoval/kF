@@ -1,4 +1,4 @@
-package com.cesarsandovaldev.kf
+package com.cesarsandovaldev.kf.videos.ejemplosKotlin
 
 var gg: String = "Good Game"
 fun main() {

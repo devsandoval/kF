@@ -1,6 +1,4 @@
-package com.cesarsandovaldev.kf
-
-import kotlin.math.sin
+package com.cesarsandovaldev.kf.videos.ejemplosKotlin
 
 fun main() {
     val diasSemanales =

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstapp.FrameLayoutActivity">
+
+    <View
+        android:id="@+id/caja1"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#29ACA2"
+        android:layout_gravity="top">
+    </View>
+
+    <View
+        android:id="@+id/caja2"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#36AC29"
+        android:layout_gravity="top|center">
+
+    </View>
+
+    <View
+        android:id="@+id/caja3"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#6BDA5F"
+        android:layout_gravity="top|end" />
+
+    <View
+        android:id="@+id/caja4"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#673AB7"
+        android:layout_gravity="center|start">
+    </View>
+
+    <View
+        android:id="@+id/caja5"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#3F51B5"
+        android:layout_gravity="center">
+    </View>
+
+    <View
+        android:id="@+id/caja6"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#2196F3"
+        android:layout_gravity="center|end">
+    </View>
+
+    <View
+        android:id="@+id/caja7"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#E91E63"
+        android:layout_gravity="bottom|start">
+    </View>
+
+    <View
+        android:id="@+id/caja8"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#F44336"
+        android:layout_gravity="bottom|center">
+    </View>
+
+    <View
+        android:id="@+id/caja9"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#FF9800"
+        android:layout_gravity="bottom|end">
+    </View>
+
+</FrameLayout>

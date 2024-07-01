@@ -1,4 +1,4 @@
-package com.cesarsandovaldev.kf.JSaKT
+package com.cesarsandovaldev.kf.bootcampTypescript.JSaKT
 fun main() {
 val numeros = arrayOf(3,87,99,52,47,63,8,2)
 val valor = sumaPares(numeros)

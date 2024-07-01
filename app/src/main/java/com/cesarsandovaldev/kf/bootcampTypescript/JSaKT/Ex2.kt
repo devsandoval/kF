@@ -1,4 +1,4 @@
-package com.cesarsandovaldev.kf.JSaKT
+package com.cesarsandovaldev.kf.bootcampTypescript.JSaKT
 
 /*
 Crear una función que reciba un array de palabras y devuelva true si todas las palabras terminan con la letra "a"

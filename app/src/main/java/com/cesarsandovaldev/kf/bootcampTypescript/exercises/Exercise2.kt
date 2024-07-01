@@ -1,4 +1,4 @@
-package com.cesarsandovaldev.kf.exercises
+package com.cesarsandovaldev.kf.bootcampTypescript.exercises
 
 /**
  * Las entradas de cine suelen tener un precio diferente según la edad de los espectadores.

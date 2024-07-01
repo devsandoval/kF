@@ -1,3 +1,5 @@
+package com.cesarsandovaldev.kf.videos.ejemplosKotlin
+
 fun main() {
     val gato = "Orion"
     gatitos(gato)
