@@ -6,7 +6,7 @@ println(valor)
 }
 
 fun sumaPares (vuelta:Array<Int>):Int{
-    var suma: Int =0
+    var suma =0
     for (i in vuelta){
         if(i%2==0){
             suma+=i
