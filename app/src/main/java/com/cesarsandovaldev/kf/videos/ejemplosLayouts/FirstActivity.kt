@@ -1,4 +1,4 @@
-package com.cesarsandoval.app_para_pruebas.firstapp
+package com.cesarsandovaldev.kf
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
-import com.cesarsandoval.app_para_pruebas.R
 
 class FirstActivity : AppCompatActivity() {
     @SuppressLint("WrongViewCast")
