@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "tarea": "Realizar llamada a proveedor",
+    "categoria": "Trabajo",
+    "prioridad": "Alta",
+    "fecha_creacion": "2023-11-22",
+    "fecha_vencimiento": "2023-11-25",
+    "completada": false,
+    "notas": "Revisar cotización de última compra"
+  },
+  {
+    "id": 2,
+    "tarea": "Ir al gimnasio",
+    "categoria": "Personal",
+    "prioridad": "Media",
+    "fecha_creacion": "2023-11-23",
+    "fecha_vencimiento": "2023-11-25",
+    "completada": false,
+    "notas": "No olvidar la toalla"
+  }
+]
