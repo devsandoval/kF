@@ -12,9 +12,5 @@ class jsonActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_json)
 
-        val recurso : JSONArray = JSONArray(resources.openRawResource(R.raw.datos).bufferedReader().use { it.readText() })
-        val elemento : JSONObject = JSONObject(recurso.get(0).toString())
-        print(elemento.get("tarea"))
-        println(recurso.get(0))
     }
 }

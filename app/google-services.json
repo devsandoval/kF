@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473198621023",
+    "project_id": "kfuchile-ea3e4",
+    "storage_bucket": "kfuchile-ea3e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473198621023:android:d1fd88e7d9a008e74cc6ea",
+        "android_client_info": {
+          "package_name": "com.cesarsandovaldev.kf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7j1JFeWUs-mnLDrzLMGiPHIHk7Euy-Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
