@@ -13,6 +13,7 @@
         android:theme="@style/Theme.KF"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".videos.exercice1.SecondActivity"
             android:exported="false" />
         <activity
@@ -28,6 +29,8 @@
             android:name=".videos.exercicios.captureActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> origin/main
             android:name=".BDActivity"
             android:exported="false" />
         <activity
