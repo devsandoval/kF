@@ -13,6 +13,9 @@
         android:theme="@style/Theme.KF"
         tools:targetApi="31">
         <activity
+            android:name=".BDActivity"
+            android:exported="false" />
+        <activity
             android:name=".firebaseActivity"
             android:exported="true">
             <intent-filter>
