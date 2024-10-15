@@ -13,6 +13,15 @@
         android:theme="@style/Theme.KF"
         tools:targetApi="31">
         <activity
+            android:name=".videos.programas.RecyclerViewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".videos.ejemplosLayouts.RecyclerViewActivity"
             android:exported="true">
             <intent-filter>
